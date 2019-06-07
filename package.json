@@ -1,0 +1,23 @@
+{
+    "name": "tomatoweb",
+    "description": "Simple Hello World Node.js sample for Azure App Service",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "Microsoft",
+    "scripts": {
+        "start": "node app.js",
+        "build": "cross-env NODE_ENV=production webpack --config build/webpack.config.js"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "compression": "^1.7.4",
+        "ejs": "^2.6.1",
+        "express": "^4.17.1",
+        "express-session": "^1.16.1",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.5.12",
+        "cross-env": "^5.2.0",
+        "morgan": "^1.9.1"
+    }    
+}
